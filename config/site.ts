@@ -29,6 +29,6 @@ export const siteConfig: SiteConfig = {
     docs: "",
     discord: "",
     twitter: "",
-    github: "https://github.com/Pony-Unicorn/web3-framework",
+    github: "https://github.com/Pony-Unicorn/chain-dial",
   },
 }

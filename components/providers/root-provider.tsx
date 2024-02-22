@@ -11,9 +11,7 @@ export default function RootProvider({ children }: { children: ReactNode }) {
   return isMounted ? (
     <ThemeProvider
       attribute="class"
-      defaultTheme="system"
-      enableSystem
-      disableTransitionOnChange
+      defaultTheme="light"
     >
       <RainbowKit>{children}</RainbowKit>
     </ThemeProvider>

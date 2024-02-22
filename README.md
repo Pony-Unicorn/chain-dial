@@ -82,9 +82,14 @@ if(err){
 - destructive 警告、破坏性的
 - ring
 
-### Todo
+### Todo 合约调用工具，代替以太坊浏览器调用。home（discover）
 
-- [ ] 布局组件 flex、box、grid
-- [ ] 面板弹窗管理
-- [ ] RainbowKit 主题设定
-- [ ] 同步代码工具 npx code pull
+- [ ] ABI
+  - [ ] 使用 JSON 导入 ABI、手动填写 ABI、使用地址同步 ABI
+- [ ] 合约
+  - [ ] ABI、地址、网络组成合约
+- [ ] 特色
+  - [ ] 分享功能
+  - [ ] 返回值格式化处理（参考区块链浏览器）
+  - [ ] 根据 abi 和 calldata 解析出原始入参
+  - [ ] 可编排

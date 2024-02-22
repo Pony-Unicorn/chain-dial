@@ -1,18 +1,16 @@
 {
   "author": "Pony Unicorn",
-  "name": "web3-framework",
+  "name": "chain-dial",
   "version": "0.0.1",
   "private": false,
   "license": "MIT",
-  "description": "Web3 App framework built using Next.js, RainbowKit and more! ",
+  "description": "chain-dial - 智能合约 ABI 调用工具",
   "keywords": [
     "Web3",
     "Dapp",
-    "Wallet",
+    "ABI",
     "Ethereum",
-    "Framework",
-    "Next.js",
-    "RainbowKit"
+    "evm"
   ],
   "scripts": {
     "dev": "next dev",
@@ -20,12 +18,10 @@
     "start": "next start",
     "build:assets": "assetpack -c .assetpack.mjs",
     "format": "prettier . --list-different",
-    "format-fix": "prettier . --write",
-    "prepare": "prisma generate"
+    "format-fix": "prettier . --write"
   },
   "packageManager": "pnpm@8.12.1",
   "dependencies": {
-    "@prisma/client": "^5.7.1",
     "@radix-ui/react-accordion": "^1.1.2",
     "@radix-ui/react-alert-dialog": "^1.0.5",
     "@radix-ui/react-avatar": "^1.0.4",
@@ -85,7 +81,6 @@
     "eslint-config-next": "^14.1.0",
     "postcss": "^8",
     "prettier": "^3.1.1",
-    "prisma": "^5.7.1",
     "tailwindcss": "^3.3.0",
     "typescript": "^5"
   }

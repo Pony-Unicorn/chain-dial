@@ -5,7 +5,7 @@ export default function Page() {
     <div className="container relative mt-20 px-0">
       <PageHeader className="pb-8">
         <PageHeaderHeading>
-          <p>This About</p>
+          <p>This My</p>
         </PageHeaderHeading>
       </PageHeader>
     </div>

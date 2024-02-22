@@ -9,8 +9,8 @@ export const menu = [
     href: "/",
   },
   {
-    title: "About",
-    href: "/about",
+    title: "My",
+    href: "/my",
   },
   {
     title: "Github",

@@ -11,7 +11,6 @@ import {
   PageHeaderHeading,
 } from "@/components/layout/page-header"
 import { CopyButton } from "@/components/shared/copy-button"
-import { ExampleDemos } from "@/components/shared/example-demos"
 
 export default function HomePage() {
   return (
@@ -45,7 +44,6 @@ export default function HomePage() {
           </CopyButton>
         </PageHeaderCTA>
       </PageHeader>
-      <ExampleDemos />
     </div>
   )
 }

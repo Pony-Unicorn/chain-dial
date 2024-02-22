@@ -1,16 +1,10 @@
-# Hexagon - Web3 App Starter Kit
+# chain-dial - 智能合约 ABI 调用工具
 
 # Getting Started
 
 nodeJs：使用 .nvmrc 文件进行管理，版本为 v20.10.0 , 建议使用 fnm 作为版本管理
 
 依赖包管理：必须使用 pnpm，版本为 8.x
-
-### Use
-
-```bash
-pnpm create next-app -e https://github.com/Pony-Unicorn/web3-framework
-```
 
 #### Development
 

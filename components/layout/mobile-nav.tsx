@@ -30,9 +30,6 @@ export function MobileNav() {
         <WalletConnect />
       </div>
       <SheetContent side="left" className="pr-0">
-        <div className="flex items-center gap-x-4">
-          <ModeToggle />
-        </div>
         <ul className="mt-6 flex flex-col gap-y-6">
           {menuConfig.map(({ title, href }) => (
             <li key={title} onClick={() => setOpen(false)}>

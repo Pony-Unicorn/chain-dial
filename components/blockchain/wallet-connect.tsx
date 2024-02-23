@@ -7,7 +7,7 @@ export const WalletConnect = ({
 }: HtmlHTMLAttributes<HTMLSpanElement>) => {
   return (
     <span className={className} {...props}>
-      <ConnectButton showBalance={false} />
+      <ConnectButton showBalance={false} accountStatus={"address"} />
     </span>
   )
 }

@@ -4,7 +4,6 @@ import useScroll from "@/lib/hooks/use-scroll"
 import { cn } from "@/lib/utils"
 import { MainNav } from "@/components/layout/main-nav"
 import { MobileNav } from "@/components/layout/mobile-nav"
-import { ModeToggle } from "@/components/shared/mode-toggle"
 
 import { WalletConnect } from "../blockchain/wallet-connect"
 
@@ -22,7 +21,6 @@ export function SiteHeader() {
         <MainNav />
         <MobileNav />
         <div className="hidden flex-1 items-center justify-between space-x-2 md:flex md:justify-end">
-          <ModeToggle />
           <WalletConnect />
         </div>
       </div>
